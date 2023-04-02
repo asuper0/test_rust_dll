@@ -1,0 +1,15 @@
+buildType:
+  default: debug
+  choices:
+    debug:
+      short: Debug
+      long: Emit debug information
+      buildType: Debug
+      settings:
+        BUILD_TYPE : Debug
+    release:
+      short: Release
+      long: Optimize generated code
+      buildType: Release
+      settings:
+        BUILD_TYPE : Release

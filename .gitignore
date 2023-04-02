@@ -1,0 +1,4 @@
+/build
+/simple_ffi/target
+/simple_ffi/Cargo.lock
+/.history
